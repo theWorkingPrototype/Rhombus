@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Rhombus</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/sty_le.css">
+  </head>
+  <body>
+		
+    <!-- sidebar -->
+
+		<div class="wrapper d-flex align-items-stretch">
+			<nav id="sidebar">
+				<div class="p-4 pt-5">
+		  		<a href="#" class="img logo rounded-circle mb-5" style="background-image: url(\images\\user.png);"></a>
+	        <ul class="list-unstyled components mb-5">
+	          <li class="active">
+	            <a href="#">Home</a>
+	          </li>
+              <li>
+              <a href="profile.html">Profile</a>
+              </li>
+	          <li>
+              <a href="index.html">Scholarships</a>
+              
+	          </li>
+	          <li>
+              <a onclick="loadabout()">About</a>
+	          </li>
+            <li>
+              <a href="login.html">LogOUT</a>
+	          </li>
+	        </ul>
+
+	        <footer  style="position: fixed; bottom:2em">Copyright by WSDC</footer>
+
+	      </div>
+    	</nav>
+
+      <!-- end sidebar -->
+
+        <!-- Page Content  -->
+      <div id="content" class="p-4 p-md-5">
+
+        <!-- topbar -->
+
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+          <div class="container-fluid">
+
+            <button type="button" id="sidebarCollapse" class="btn btn-primary">
+              <i class="fa fa-bars"></i>
+              <span class="sr-only">Toggle Menu</span>
+            </button>
+            <h2 class="title" style="margin: 0 1em;">Admin</h2>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a onclick="loadabout()" class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a  onclick="loadcontacts()" class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            <!-- </div> -->
+          </div>
+        </nav>
+
+        <!-- end topbar -->
+            <h2 class="text" style="height:fit-content;width:fit-content;"></h2>
+
+
+        <main class="page-content">
+            <div class="card" style="background-image: url(images/kvpy.jpg); background-size:400px 350px;background-position: 45%;">
+        <div class="card-content">
+            <h2 class="card-title">KVPY</h2>
+              <p class="card-copy">National Level Olympiad</p><a href="scholarship.html"><button class="card-btn">Details & Applications</button></a>
+            <p style="display: none;"></p>
+        </div>
+    </div><div class="card">
+        <div class="card-content">
+            <p hidden>new</p>
+            <h2 class="card-title">Name</h2>
+            <p class="card-copy"></p><button class="card-btn">Details & Applications</button>
+        </div>
+    </div><div class="card">
+        <div class="card-content">
+            <p hidden>new</p>
+            <h2 class="card-title">Name</h2>
+            <p class="card-copy"></p><button class="card-btn">Details & Applications</button>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-content">
+            <p hidden>new</p>
+            <h2 class="card-title">Name</h2>
+            <p class="card-copy"></p><button class="card-btn">Details & Applications</button>
+        </div>
+    </div>
+             <a href="addscholarship.html"><button type="button" class="cols-md-12 btn btn-primary"> + Add new Scholarship</button></a>            </main>
+     
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/sort-script.js"></script>
+    
+  </body>
+</html>

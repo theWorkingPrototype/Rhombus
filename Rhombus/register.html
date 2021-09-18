@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Rhombus</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+		
+		<div class="wrapper d-flex align-items-stretch">
+			<nav id="sidebar">
+				<div class="p-4 pt-5">
+		  		<a href="#" class="img logo rounded-circle mb-5" style="background-image: url(\images\\user.png);"></a>
+	        <ul class="list-unstyled components mb-5">
+	          <li>
+              <a href="login.html">LogIN</a>
+            </li>
+            <li class="active">
+              <a href="#">SignUP</a>
+            </li>
+	          <li>
+              <a onclick="loadabout()" href="#">About</a>
+	          </li>
+	        </ul>
+
+	        <footer style="position: fixed; bottom:2em">Copyright by WSDC</footer>
+
+	      </div>
+    	</nav>
+
+        <!-- Page Content  -->
+      <div id="content" class="p-4 p-md-5">
+
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+          <div class="container-fluid">
+
+            <button type="button" id="sidebarCollapse" class="btn btn-primary">
+              <i class="fa fa-bars"></i>
+              <span class="sr-only">Toggle Menu</span>
+            </button>
+            <h2 class="title" style="margin: 0 1em;">Register</h2>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a onclick="loadabout()" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a onclick="loadcontacts()" class="nav-link">Contacts</a>
+                </li>
+              </ul>
+            <!-- </div> -->
+          </div>
+        </nav>
+            <h2 class="text" style="height:fit-content;width:fit-content;"></h2>
+        <main class="page-content"> 
+            
+    <!-- <div class="main-body"> -->
+
+                <!-- Delete excess data elements / pic if not in database -->
+
+                  <div class="col-md-4 float-right">
+                    <form action="/action_page.php">
+                    <img src="images/person-icon.png" class="rounded  mx-auto d-block img-thumbnail">
+                      <label for="img">Upload your image:</label>
+                      <input type="file" id="img" name="img" accept="image/*">
+                      <input type="submit">
+                    </form>
+                  </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                  <div class="row">
+                      <input type="text" class="col-md-6" placeholder="First name" name="First-name" required>
+                      <input type="text" class="col-md-6" placeholder="Last name" name="Last-name" required>
+                  </div>
+                  <hr>
+                  <div class="row">
+                      <input type="text" class="col-md-12" placeholder="Roll Number" name="Roll-Number" required>
+                  </div>
+                  <hr>
+                  <div class="row">
+                      <input type="text" class="col-md-12" placeholder="Registration Number" name="Registration-Number" required>
+                  </div>
+                  <hr>
+                  <div class="row">
+                      <input type="text" class="col-md-12" placeholder="Date Of Birth" name="Date-Of-Birth" required>
+                  </div>
+                  <hr>
+                  <div class="row">
+                      <input type="text" class="col-md-12" placeholder="Contact Number" name="Contact-Number" required>
+                  </div>
+                  <hr>
+                  <div class="row">
+                      <input type="text" class="col-md-12" placeholder="Email" name="Email" required>
+                  </div>
+                  <hr>
+                  <div class="row">
+                      <input type="text" class="col-md-12" placeholder="Email" name="Email" required>
+                  </div>
+                  <hr>
+                  <div class="row">
+                      <input type="text" class="col-md-12" placeholder="Gender" name="Gender" required>
+                  </div>
+                  <hr>
+                  <div class="row">
+                      <input type="text" class="col-md-12" placeholder="Address" name="Address" required>
+                  </div>
+                  <hr>
+                  <div class="row">
+                      <input type="text" class="col-md-12" placeholder="admission category" name="admission" required>
+                    </div>
+                    <hr>
+                  <div class="row">
+                      <input type="text" class="col-md-12" placeholder="Course" name="Course" required>
+                    </div>
+                    <hr>
+                    <div class="row">
+                      <input type="text" class="col-md-6" placeholder="branch" name="branch" required>
+                     <input type="text" class="col-md-6" placeholder="Section" name="Section" required>
+                     </div>
+                     <hr>
+
+
+                     <!-- Register button -->
+
+                   <div class="row">
+                      <a class="btn btn-info col-md-12" style="background-color: #f8B739;border-color:#f8B739;" target="__blank" href="#">Register</a>
+                  </div>
+                  </div>
+                </div>
+              </main>
+            </div>
+            </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
